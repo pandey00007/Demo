@@ -1,0 +1,32 @@
+.grid-60 {
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-image: url(../Img/dotted-line.png),url(../Img/dottedline1.png);
+    background-position: 75% 0%, 25% 50%;
+    background-size: auto, auto;
+    background-repeat: no-repeat, no-repeat;
+}
+.w-layout-grid{
+    display: grid;
+}
+.one {
+    border-radius: 50%;
+    background-color: #e2f7f0;
+}
+.heading-54 {
+    display: block;
+    margin-top: 40px;
+    color: #160647;
+    font-size: 24px;
+    font-weight: 700;
+}
+.text-block-43 {
+    display: block;
+    color: #6e6d7a;
+    font-size: 14px;
+    font-weight: 700;
+}
+.third-section{
+    text-align: center;
+}
